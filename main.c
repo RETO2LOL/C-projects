@@ -92,4 +92,45 @@ use it we have to incude stdbool
 // }
 //
 
+// lesson 4 arthmatic oprators
+// int main() {
+//   int x = 2;
+//   float y = 4;
+//   float z = 0;
+//
+//   // z = x + y;
+//   // z = x - y;
+//   // z = x * y;
+//   // z = x / y; //deviding with int will return 0
+//   // z = x % y; //it gives the remain number to be even
+//   // x++;
+//   // x--;
+//   // x+=3 this change the value of a variable by adding or suptracting
+//   numbers printf("%d\n", x); printf("%d\n", y); printf("%d\n", z);
+//
+//   return 0;
+// }
+
+// User input
+// int main() {
+//   int age = 0;
+//   float gpa = 0.0f;
+//   char grade = '\0';
+//   char name[30] = "";
+//   printf("Enter your age: ");
+//   scanf("%d", &age);
+//   printf("your age is %d\n", age);
+//   printf("Enter your gpa: ");
+//   scanf("%f", &gpa);
+//   printf("your gpa is %f\n", gpa);
+//   printf("Enter your grade: ");
+//   scanf(" %c", &grade);
+//   printf("your grade is %c\n", grade);
+//   printf("Enter your name: ");
+//   getchar();
+//   fgets(name, sizeof(name), stdin);
+//   printf("your name is %s\n", name);
+//   return 0;
+// }
+
 int main() { return 0; }
