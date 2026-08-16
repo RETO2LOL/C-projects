@@ -1,4 +1,5 @@
 #include <stdbool.h>
+#include <stddef.h>
 #include <stdio.h>
 
 // lesson 1 basic input and output
@@ -133,4 +134,26 @@ use it we have to incude stdbool
 //   return 0;
 // }
 
-int main() { return 0; }
+int main() {
+  // declarig variables
+  char TypeOfFood[30] = "";
+  float PriceofFood = 0.0f;
+  int HowMuch = 0;
+
+  // getting the input from the user
+  printf("What do you need: ");
+  fgets(TypeOfFood, sizeof(TypeOfFood), stdin);
+
+  printf("How much do you want for it:");
+  scanf("%f", &PriceofFood);
+
+  printf("How much do you want:");
+  scanf("%d", &HowMuch);
+
+  // adding the output for the user
+  float Total = PriceofFood * HowMuch;
+  printf("you have bought %d %s", HowMuch, TypeOfFood);
+  printf("your Total is %.1f\n", Total);
+
+  return 0;
+}
