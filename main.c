@@ -161,39 +161,41 @@ use it we have to incude stdbool
 //  }
 
 // game project
-int main() {
-  // declarig variables
-  char description[50] = "";
-  char noun[50] = "";
-  char adjective[50] = "";
-  char verb[50] = "";
-  char adjective2[50] = "";
+// int main() {
+//   // declarig variables
+//   char description[50] = "";
+//   char noun[50] = "";
+//   char adjective[50] = "";
+//   char verb[50] = "";
+//   char adjective2[50] = "";
+//
+//   // getting input from the user
+//   printf("Enter an adjective (description): ");
+//   fgets(description, sizeof(description), stdin);
+//   description[strlen(description) - 1] = '\0';
+//
+//   printf("Enter a noun(animal or person): ");
+//   fgets(noun, sizeof(noun), stdin);
+//   noun[strlen(noun) - 1] = '\0';
+//
+//   printf("Enter a adjective(description): ");
+//   fgets(adjective, sizeof(adjective), stdin);
+//   adjective[strlen(adjective) - 1] = '\0';
+//
+//   printf("Enter a verb(ending /w -ing): ");
+//   fgets(verb, sizeof(verb), stdin);
+//   verb[strlen(verb) - 1] = '\0';
+//
+//   printf("Enter a adjective(description): ");
+//   fgets(adjective2, sizeof(adjective2), stdin);
+//   adjective2[strlen(adjective2) - 1] = '\0';
+//
+//   printf("Today I went to a %s.\n", description);
+//   printf("In an exhibit, I saw a  %s.\n", noun);
+//   printf("%s was %s and %s.\n", noun, adjective, verb);
+//   printf("I was %s\n", adjective2);
+//
+//   return 0;
+// }
 
-  // getting input from the user
-  printf("Enter an adjective (description): ");
-  fgets(description, sizeof(description), stdin);
-  description[strlen(description) - 1] = '\0';
-
-  printf("Enter a noun(animal or person): ");
-  fgets(noun, sizeof(noun), stdin);
-  noun[strlen(noun) - 1] = '\0';
-
-  printf("Enter a adjective(description): ");
-  fgets(adjective, sizeof(adjective), stdin);
-  adjective[strlen(adjective) - 1] = '\0';
-
-  printf("Enter a verb(ending /w -ing): ");
-  fgets(verb, sizeof(verb), stdin);
-  verb[strlen(verb) - 1] = '\0';
-
-  printf("Enter a adjective(description): ");
-  fgets(adjective2, sizeof(adjective2), stdin);
-  adjective2[strlen(adjective2) - 1] = '\0';
-
-  printf("Today I went to a %s.\n", description);
-  printf("In an exhibit, I saw a  %s.\n", noun);
-  printf("%s was %s and %s.\n", noun, adjective, verb);
-  printf("I was %s\n", adjective2);
-
-  return 0;
-}
+int main() { return 0; }
