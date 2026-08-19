@@ -1,3 +1,4 @@
+#include <math.h>
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdio.h>
@@ -194,6 +195,42 @@ use it we have to incude stdbool
 //   printf("In an exhibit, I saw a  %s.\n", noun);
 //   printf("%s was %s and %s.\n", noun, adjective, verb);
 //   printf("I was %s\n", adjective2);
+//
+//   return 0;
+// }
+
+// some math functions
+//  int main() {
+//    float x = 9.50;
+//    // x = sqrt(x);
+//    // x = pow(x, 3);
+//    // x = round(x);
+//    // x = ceil(x);
+//    // x = floor(x);
+//
+//    return 0;
+//  }
+
+// cercle Area calculator
+// int main() {
+//   // declarig variables
+//   double radius = 0.0;
+//   double Area = 0.0;
+//   double SurfaceArea = 0.0;
+//   double volume = 0.0;
+//   const double pi = 3.14159265359;
+//   // getting input from the user
+//   printf("Enter  the radius: ");
+//   scanf(" %lf", &radius);
+//
+//   // calculating
+//   Area = pi * pow(radius, 2);
+//   SurfaceArea = Area * 4;
+//   volume = (4.0 / 3.0) * pi * pow(radius, 3);
+//   // sending input to the user
+//   printf("Area: %.2lf\n", Area);
+//   printf("Surface Area: %.2lf\n", SurfaceArea);
+//   printf("Volume: %.2lf\n", volume);
 //
 //   return 0;
 // }
