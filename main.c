@@ -235,4 +235,37 @@ use it we have to incude stdbool
 //   return 0;
 // }
 
+// oprator intrest calculator
+
+// int main() {
+//   // declarig variables
+//   double initialAmount = 0.0;
+//   double annualInterestRate = 0.0;
+//   double interestPerYear = 0.0;
+//   double numberOfYear = 0.0;
+//   double finalAmount = 0.0;
+//
+//   // getting input from the user
+//   printf("Enter the principal (P): ");
+//   scanf("%lf", &initialAmount);
+//
+//   printf("Enter the annual Interest Rate (r):  ");
+//   scanf("%lf", &annualInterestRate);
+//
+//   printf("Enter the Interest Per Year (n): ");
+//   scanf("%lf", &interestPerYear);
+//
+//   printf("Enter the Number Of Years (t): ");
+//   scanf("%lf", &numberOfYear);
+//
+//   // calculating
+//   finalAmount = initialAmount * pow(1 + annualInterestRate / interestPerYear,
+//                                     (interestPerYear * numberOfYear));
+//   // sending input to the user
+//   printf("After %.1lf years, the total will be $% 2.lf\n", numberOfYear,
+//          finalAmount);
+//
+//   return 0;
+// }
+
 int main() { return 0; }
