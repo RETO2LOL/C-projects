@@ -268,4 +268,43 @@ use it we have to incude stdbool
 //   return 0;
 // }
 
+// if statemnt in c
+// int main() {
+//   // examble one
+//   // int age = 0;
+//   // printf("Enter your age: ");
+//   // scanf("%d", &age);
+//   // if (age >= 18) {
+//   //   printf("you are a bitch\n");
+//   //  } else if (age < 0) {
+//   //   printf("you will come from a bitch\n");
+//   //  } else if (age == 0) {
+//   //   printf("you came from a bitch\n");
+//   //  } else {
+//   //   printf("you are a kid and a bitch\n");
+//   //  }
+//
+//   // examble 2
+//   //  bool isStudent = true;
+//   //  if (isStudent) {
+//   //    printf("You are nigga");
+//   //  } else {
+//   //    printf("you are a thife");
+//   //  }
+//
+//   // examble 3
+//   char name[50] = "";
+//
+//   printf("Enter your name");
+//   fgets(name, sizeof(name), stdin);
+//
+//   if (strlen(name) == 0) {
+//     printf("Your name does not exist");
+//   } else {
+//     printf("your name is very bad");
+//   }
+//
+//   return 0;
+// }
+
 int main() { return 0; }
