@@ -307,4 +307,29 @@ use it we have to incude stdbool
 //   return 0;
 // }
 
-int main() { return 0; }
+// converter in c
+int main() {
+  // declarig variables
+  int choice = 0;
+  float Kilogram = 0;
+  float Pound = 0;
+  // getting input from the user
+  printf("1.Kilograms to Pounds\n");
+  printf("2.Pounds to Kilograms\n");
+  printf("Enter your choice 1 or 2:");
+  scanf("%d", &choice);
+  // calculating input
+  if (choice == 1) {
+    printf("Enter the weight in Kilograms:");
+    scanf("%f", &Kilogram);
+    Pound = Kilogram / 2.20462;
+    printf("%.2f Pounds\n", Pound);
+  } else if (choice == 2) {
+    printf("Enter the weight in Pounds:");
+    scanf("%f", &Pound);
+    Kilogram = Pound * 0.45359237;
+    printf("%.2f Kilograms\n", Kilogram);
+  }
+
+  return 0;
+}
