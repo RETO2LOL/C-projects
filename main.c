@@ -334,4 +334,35 @@ use it we have to incude stdbool
 //   return 0;
 // }
 
-// Tempreture converter
+// swtich in c
+int main() {
+  int dayOfWeek = 0;
+  printf("Enter the day of the week (1-7): ");
+  scanf("%d", &dayOfWeek);
+  switch (dayOfWeek) { // better than else if in this "case"  (:
+  case 1:
+    printf("it is Monday");
+    break;
+  case 2:
+    printf("it is Tuesday");
+    break;
+  case 3:
+    printf("it is Wednesday");
+    break;
+  case 4:
+    printf("it is Thursday");
+    break;
+  case 5:
+    printf("it is Friday");
+    break;
+  case 6:
+    printf("it is Saturday");
+    break;
+  case 7:
+    printf("it is Sunday");
+    break;
+  default:
+    printf("only enter a number form 1 to 7");
+  }
+  return 0;
+}
